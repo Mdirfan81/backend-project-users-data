@@ -1,0 +1,46 @@
+###ex:1
+GET http://localhost:5000/api/allUsers
+
+
+### ex:3
+GET http://localhost:5000/api/getUser/3
+
+
+
+###Auth
+POST  http://localhost:5000/api/auth
+Content-Type:application/json
+    
+{
+
+    "email":"Charlotte51@yahoo.com" 
+}
+
+
+
+
+### ex:2
+POST http://localhost:5000/api/create
+Content-Type:application/json
+    
+{
+    "firstName":"122 new",
+    "lastName":"ttt 331",
+    "email":"____@gmail.com" 
+}
+
+
+###Put request
+PUT http://localhost:5000/api/update/2
+Content-Type:application/json
+    
+{
+    "firstName":"Toltal new updating id 2",
+    "lastName":"ttt 12222",
+    "email":"newInddshfian1@gmail.com" 
+}
+
+
+
+###Delete
+DELETE  http://localhost:5000/api/delete/5
